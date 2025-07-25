@@ -1,0 +1,82 @@
+.card {
+  background-color: white;
+  color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 200ms;
+  width: 440px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transition: 200ms;
+  border: 3px solid tomato;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: tomato;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 20pt;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter {
+  vertical-align: middle;
+}
+
+.card-title-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-title {
+  margin: 0;
+  font-size: large;
+}
+
+.card-date {
+  font-size: small;
+  color: #555;
+}
+
+.card-image {
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card-text {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card-like-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.card-like-icon {
+  height: 25px;
+}
+
+.like-text {
+  font-size: small;
+  margin-left: 10px;
+}
